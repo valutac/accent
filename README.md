@@ -48,6 +48,10 @@ There is two template in this application:
 - Email template `email.html` - create your own html template.
 - Certificate template `template.png` - design your own template.
 
+### Example Certificate
+
+![](example.png)
+
 ## LICENSE
 
 <a href="LICENSE">
