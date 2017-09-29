@@ -2,7 +2,31 @@
 
 Send certificate to your meetup or event participant
 
-## BUILD & RUN
+## Configuration
+
+All configuration is under `config.toml` file.
+
+### Using Testing Mode
+
+To use testing mode change `enable` variable to `true`, for production change it to `false`
+```
+[app.dummy]
+enable=true
+target="support@valutac.com"
+```
+### SMTP Server
+
+Change credentials in `config.toml` file to your SMTP server
+
+```
+[app.email]
+host="smtp.example.com"
+port=587
+username="email@example.com"
+password="password"
+```
+
+## Build & Run
 
 ```
 $ go build -o accent
@@ -21,8 +45,8 @@ $ ./accent -dummy=false -file=source.csv -send=true
 
 There is two template in this application:
 
-- Email template `email.html`
-- Certificate template `template.png`
+- Email template `email.html` - create your own html template.
+- Certificate template `template.png` - design your own template.
 
 ## LICENSE
 
