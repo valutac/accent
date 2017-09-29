@@ -25,3 +25,7 @@ There is two template in this application:
 - Certificate template `template.png`
 
 ## LICENSE
+
+<a href="LICENSE">
+<img src="mit.png" width="75"></img>
+</a>
