@@ -1,0 +1,16 @@
+hash: cb4c4ced8a407966c82e89e5a1f5a2981c8de431b880b53c2e376494de9afc2c
+updated: 2017-09-29T20:51:14.300426+07:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/flosch/pongo2
+  version: 5e81b817a0c48c1c57cdf1a9056cf76bdee02ca9
+- name: github.com/juju/errors
+  version: c7d06af17c68cd34c835053720b21f6549d9b0ee
+- name: github.com/jung-kurt/gofpdf
+  version: 14c1db30737a138f8d9797cffea58783892b2fae
+- name: gopkg.in/alexcesaro/quotedprintable.v3
+  version: 2caba252f4dc53eaf6b553000885530023f54623
+- name: gopkg.in/gomail.v2
+  version: 81ebce5c23dfd25c6c67194b37d3dd3f338c98b1
+testImports: []

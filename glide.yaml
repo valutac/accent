@@ -1,0 +1,10 @@
+package: github.com/valutac/accent
+import:
+- package: github.com/flosch/pongo2
+  version: ^3.0.0
+- package: github.com/jung-kurt/gofpdf
+  version: ^1.0.0
+- package: gopkg.in/gomail.v2
+  version: ^2.0.0
+- package: github.com/BurntSushi/toml
+  version: ^0.3.0

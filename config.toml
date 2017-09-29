@@ -1,0 +1,9 @@
+[app.dummy]
+enable=true
+target="support@valutac.com"
+
+[app.email]
+host="smtp.example.com"
+port=587
+username="email@example.com"
+password="password"
