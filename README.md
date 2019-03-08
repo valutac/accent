@@ -1,5 +1,7 @@
 # Accent
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/valutac/accent)](https://goreportcard.com/report/github.com/valutac/accent)
+
 Send certificate to your meetup or event participant
 
 ## Configuration
